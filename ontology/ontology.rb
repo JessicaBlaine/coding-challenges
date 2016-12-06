@@ -13,4 +13,5 @@ def parse_topics(topics)
   Topic.new()
 end
 
+
 # .select {|t| t !~ /\(|\)/}
