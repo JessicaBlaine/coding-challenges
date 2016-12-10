@@ -8,7 +8,6 @@ def parse_input
   return topic_hash
 end
 
-
 def parse_topics(topics)
   topics.each
   Topic.new()
