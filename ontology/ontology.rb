@@ -5,6 +5,7 @@ def parse_input
   topic_count = $stdin.gets.chomp.to_i
   topic_hash = parse_topics($stdin.gets.chomp.split(" "))
 
+
   return topic_hash
 end
 
